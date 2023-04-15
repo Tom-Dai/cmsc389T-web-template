@@ -14,5 +14,5 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           script: |
-            cd /pub/tomdai
+            cd ../pub
             git clone https://github.com/Tom-Dai/cmsc389T-web-template.git
