@@ -3,7 +3,7 @@ on:
   workflow_dispatch:   
 jobs:
   job_one:
-    name: Celete
+    name: Cleaning
     runs-on: ubuntu-latest
     steps:
       - name: testing
