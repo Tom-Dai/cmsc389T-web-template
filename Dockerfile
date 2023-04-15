@@ -6,7 +6,7 @@
 #there should be a total of 9 lines
 FROM node:10-alpine
 
-USER NODE
+USER node
 
 RUN mkdir -p /home/node/app && chown -R node:node /home/node/app
 
